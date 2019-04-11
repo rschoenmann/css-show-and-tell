@@ -1,5 +1,13 @@
 body{
     margin: 15px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-left: 40px;
+}
+
+.normalElement{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
 }
 
 .firstExample{
@@ -20,7 +28,7 @@ body{
     height: 150px;
     width: 150px;
     background-color: lawngreen;
-    border-radius: 5px 60px 20px;
+    border-radius: 5px 60px 27px;
 }
 
 .twoCorners{
@@ -28,4 +36,27 @@ body{
     width: 150px;
     background-color: mediumblue;
     border-radius: 50px 25px;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
+
+.triangleRight{
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-left: 110px solid #555;
+    border-bottom: 60px solid transparent;
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+}
+
+h2{
+    margin-top: 50px;
+    font-weight: 200;
 }
